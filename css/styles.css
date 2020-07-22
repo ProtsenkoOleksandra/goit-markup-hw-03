@@ -99,10 +99,11 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  border: 0;
+  border: 0px;
 }
 
 .link:hover,
