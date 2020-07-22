@@ -22,6 +22,8 @@ html {
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
@@ -97,7 +99,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
 
   border-radius: 4px;
@@ -120,6 +121,10 @@ body {
 }
 
 /* Hero*/
+
+.hero {
+  text-align: center;
+}
 .hero-title {
   color: #ffffff;
   background-color: black; /*background-color it´s temporary put here*/
@@ -128,10 +133,18 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 40px;
+
+  outline: 2px solid tomato;
 }
 
 /* Work principles*/
 
+.hidden-title {
+  margin: 0px;
+}
 .principles-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -139,6 +152,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 0px;
 }
 
 .principles-description {
