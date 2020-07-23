@@ -36,6 +36,9 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 /* Universal conteiner for centralize content*/
@@ -142,8 +145,8 @@ body {
 
 /* Work principles*/
 .section-principles {
-  padding-top: 96px;
-  padding-bottom: 169px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .hidden-title {
