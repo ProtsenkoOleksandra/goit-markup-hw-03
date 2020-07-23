@@ -234,6 +234,10 @@ header {
 
 /* Our clients section*/
 
+.section-clients {
+  background-color: violet;
+}
+
 /* Adress section*/
 .footer {
   background: var(--footer-background-color);
