@@ -294,6 +294,11 @@ header {
 
 /*PORTFOLIO PAGE CSS*/
 
+.section-portfolio {
+  padding-top: 93px;
+  background-color: violet;
+}
+
 .button-portfolio {
   background-color: var(--grey-back-color);
   color: var(--title-text-color);
@@ -306,6 +311,8 @@ header {
   border-radius: 4px;
   padding: 6px 22px;
   border: 0px;
+
+  margin-bottom: 50px;
 }
 
 .button-portfolio:focus,
@@ -320,6 +327,9 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
 
 .portfolio-group {
@@ -328,6 +338,9 @@ header {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .portfolio-description {
@@ -337,4 +350,8 @@ header {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+
+  /*уточнить, как єту картинку лепить))*/
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
