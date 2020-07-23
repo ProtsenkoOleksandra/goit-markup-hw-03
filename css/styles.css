@@ -198,8 +198,17 @@ header {
 
 /* Our team section*/
 .team-section {
-  background-color: var(--grey-back-color);
+  /* background-color: var(--grey-back-color); */
+  background-color: turquoise;
+
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
+.team .member {
+  margin-bottom: 30px;
+}
+
 .team-member-name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -207,6 +216,9 @@ header {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .profession {
@@ -215,6 +227,9 @@ header {
   line-height: 0.84;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 
 /* Our clients section*/
