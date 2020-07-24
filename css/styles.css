@@ -131,6 +131,9 @@ header {
 .hero {
   text-align: center;
   background-color: yellow;
+
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 .hero-title {
   color: #ffffff;
