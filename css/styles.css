@@ -64,39 +64,34 @@ header {
 
 /* Main Navigation*/
 
+.link {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
 .logo-web {
   color: var(--acent-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
-.logo-studio {
+.main-logo > .link {
+  margin-right: 85px;
+}
+
+.site-menu .link {
   color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.site-nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav .link {
-  color: var(--title-text-color);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
 }
-
-.main-logo {
-  margin-right: 85px;
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 .site-menu:not(:last-child) {
@@ -157,8 +152,8 @@ header {
   letter-spacing: 0.06em;
 }
 
-.link:hover,
-.link:focus,
+.site-menu > .link:hover,
+.site-menu > .link:focus,
 .contacts:hover,
 .contacts:focus,
 .button:active,
@@ -311,13 +306,17 @@ header {
   letter-spacing: 0.03em;
 }
 
-.web-white {
-  color: var(--white-text-color);
+.logo-footer {
+  color: var(--acent-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.logo-footer + .white {
+  color: var(--white-text-color);
 }
 
 .slogan {
