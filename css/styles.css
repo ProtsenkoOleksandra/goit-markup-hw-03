@@ -273,8 +273,21 @@ header {
   padding-bottom: 94px;
 }
 
-.team .member {
-  margin-bottom: 30px;
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team .worker {
+  margin-right: 30px;
+}
+
+.team .worker:last-child {
+  margin-right: 0px;
+}
+
+.social-media {
+  display: flex;
 }
 
 .team-member-name {
@@ -392,7 +405,7 @@ header {
   margin-bottom: 50px;
 }
 
-.portfolio-nav .item:not(:last-child(3)) {
+.portfolio-nav .item:last-child {
   margin-right: 0px;
 }
 
