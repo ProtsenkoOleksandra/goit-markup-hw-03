@@ -280,6 +280,8 @@ header {
 
 .team .worker {
   margin-right: 30px;
+  padding-bottom: 24px;
+  background-color: var(--white-text-color);
 }
 
 .team .worker:last-child {
@@ -288,6 +290,12 @@ header {
 
 .social-media {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.worker .member {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .team-member-name {
