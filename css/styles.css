@@ -324,7 +324,21 @@ header {
 /* Our clients section*/
 
 .section-clients {
+  padding-bottom: 94px;
   background-color: violet;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+}
+
+.clients .partner {
+  margin-right: 30px;
+}
+
+.clients .partner:last-child {
+  margin-right: 0px;
 }
 
 /* Adress section*/
