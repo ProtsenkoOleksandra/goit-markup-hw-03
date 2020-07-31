@@ -359,6 +359,22 @@ header {
   padding-bottom: 60px;
 }
 
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
+  color: var(--white-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo .blue {
+  color: var(--acent-text-color);
+}
+
 .footer-adress {
   margin-bottom: 9px;
 
@@ -376,19 +392,6 @@ header {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.logo-footer {
-  color: var(--acent-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.logo-footer + .white {
-  color: var(--white-text-color);
 }
 
 .footer-form .slogan,
