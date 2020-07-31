@@ -342,15 +342,23 @@ header {
 }
 
 /* Adress section*/
+
+.footer-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+}
+
 .footer {
   background: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-webstudio {
-  margin-bottom: 20px;
-}
 .footer-adress {
   margin-bottom: 9px;
 
@@ -383,9 +391,9 @@ header {
   color: var(--white-text-color);
 }
 
-.slogan {
+.footer-form .slogan,
+.footer-flexbox .slogan {
   margin-bottom: 20px;
-
   color: var(--white-text-color);
   font-weight: 700;
   font-size: 14px;
