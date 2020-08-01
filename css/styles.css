@@ -487,6 +487,7 @@ header {
 .portfolio-title {
   margin-bottom: 4px;
   margin-top: 0px;
+  padding-left: 24px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -498,6 +499,7 @@ header {
 .portfolio-group {
   margin-top: 0px;
   margin-bottom: 20px;
+  padding-left: 24px;
 
   color: var(--primary-text-color);
   font-weight: 400;
