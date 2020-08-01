@@ -330,15 +330,7 @@ header {
 
 .clients {
   display: flex;
-  justify-content: center;
-}
-
-.clients .partner {
-  margin-right: 30px;
-}
-
-.clients .partner:last-child {
-  margin-right: 0px;
+  justify-content: space-between;
 }
 
 /* Adress section*/
