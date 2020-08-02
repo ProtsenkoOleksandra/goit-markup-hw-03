@@ -286,7 +286,7 @@ header {
 
 .team .worker {
   margin-right: 30px;
-  padding-bottom: 24px;
+  padding-bottom: 36px;
   background-color: var(--white-text-color);
 }
 
@@ -318,7 +318,7 @@ header {
 
 .profession {
   margin-top: 0px;
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 
   font-weight: 400;
   font-size: 16px;
