@@ -419,7 +419,8 @@ body {
 /*PORTFOLIO PAGE CSS*/
 
 .section-portfolio {
-  padding-top: 99px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-nav {
