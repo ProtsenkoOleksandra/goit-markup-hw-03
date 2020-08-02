@@ -254,6 +254,11 @@ header {
   margin-right: 0px;
 }
 .work-list-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
   color: var(--white-text-color);
   background-color: black; /*is temporary here*/
   font-weight: 700;
