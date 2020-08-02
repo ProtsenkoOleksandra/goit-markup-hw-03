@@ -235,6 +235,7 @@ header {
 /* What do we do section*/
 
 .section-projects {
+  padding-bottom: 94px;
   background-color: violet;
 }
 
@@ -325,6 +326,7 @@ header {
 
 .section-clients {
   padding-bottom: 94px;
+  padding-top: 94px;
   background-color: violet;
 }
 
