@@ -340,6 +340,10 @@ header {
   justify-content: space-between;
 }
 
+.partner .logo-company {
+  display: block;
+}
+
 /* Adress section*/
 
 .footer-flexbox {
