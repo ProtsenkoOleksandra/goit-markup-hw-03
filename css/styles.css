@@ -263,6 +263,10 @@ body {
   text-transform: uppercase;
 }
 
+.item .project-pic {
+  display: block;
+}
+
 /* Our team section*/
 
 .team-section {
