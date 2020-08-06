@@ -516,7 +516,7 @@ body {
 
 .portfolio-group {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   color: var(--primary-text-color);
   font-weight: 400;
