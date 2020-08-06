@@ -374,17 +374,19 @@ body {
   margin-right: 30px;
 }
 
-/* Adress section*/
+.smm {
+  display: block;
+}
+
+/* ADRESS SECTION*/
 
 .footer-flexbox {
   display: flex;
-  justify-content: space-between;
-  align-items: start;
+  align-items: baseline;
 }
 
 .footer-list {
   display: flex;
-  justify-content: space-around;
 }
 
 .footer {
@@ -395,6 +397,7 @@ body {
 
 .footer-logo {
   display: block;
+  margin-bottom: 20px;
 
   color: var(--white-text-color);
   font-family: Raleway, sans-serif;
@@ -409,8 +412,7 @@ body {
 }
 
 .footer-adress {
-  margin-bottom: 9px;
-
+  font-style: normal;
   color: var(--white-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -420,11 +422,17 @@ body {
 
 .email,
 .phone {
+  font-style: normal;
   color: var(--contacts-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer-adress,
+.email {
+  margin-bottom: 9px;
 }
 
 .footer-form .slogan,
@@ -438,7 +446,11 @@ body {
   text-transform: uppercase;
 }
 
-.footer-button {
+.basement {
+  margin-right: 70px;
+}
+
+/* .footer-button {
   border-radius: 4px;
   padding: 10px 28px;
   min-width: 200px;
@@ -451,7 +463,7 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-}
+} */
 
 /*PORTFOLIO PAGE CSS*/
 
