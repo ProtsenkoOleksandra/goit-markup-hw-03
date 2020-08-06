@@ -17,6 +17,7 @@ html {
   --white-text-color: #ffffff;
   --grey-back-color: #f5f4fa;
   --grey-border-color: #eeeeee;
+  --grey-border-color-partners: #afb1b8;
 }
 
 /* CLASSES UTILITIES AND UNIVERSAL*/
@@ -355,11 +356,22 @@ body {
 
 .clients {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.partner .logo-company {
-  display: block;
+.smm-link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--grey-border-color-partners);
+  border-radius: 4px;
+}
+
+.partner:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Adress section*/
