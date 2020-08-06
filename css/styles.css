@@ -289,8 +289,12 @@ body {
 
 .team .worker {
   margin-right: 30px;
-  padding-bottom: 36px;
+  padding-bottom: 24px;
+
   background-color: var(--white-text-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team .worker:last-child {
@@ -299,7 +303,19 @@ body {
 
 .social-media {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.icon-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon {
+  display: block;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
 }
 
 .worker .member {
@@ -321,7 +337,7 @@ body {
 
 .profession {
   margin-top: 0px;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 
   font-weight: 400;
   font-size: 16px;
